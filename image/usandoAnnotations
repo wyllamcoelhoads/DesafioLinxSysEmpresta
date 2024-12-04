@@ -1,0 +1,20 @@
+Documentação:
+As annotations podem ser usadas para fornecer
+informações adicionais sobre as classes e métodos do sistema. Por exemplo, podemos criar uma annotation chamada `@DescricaoItem` para descrever as características de cada tipo de item. 
+Essa informação pode ser utilizada para gerar uma documentação automaticamente ou para facilitar a compreensão do código por outros desenvolvedores
+
+
+Validação de Dados:
+As annotations podem ser usadas para validar os
+dados de entrada do sistema. 
+Por exemplo: podemos criar uma annotation `@ValidaDataDevolucao` que valida se a data de devolução informada pelo usuário é válida e está dentro 
+do prazo permitido.
+
+Controle de acesso:
+As annotations podem ser usadas para controlar o
+acesso aos métodos do sistema. Por exemplo: podemos criar uma annotation `@RequerPermissao` que indica que um determinado método só pode ser executado por usuários com permissão de administrador.
+
+
+Mapeamento de Rotas (web):
+Em um sistema web, as annotations podem
+ser usadas para mapear as rotas (URLs) para os métodos do controlador que serão executados em resposta a determinadas requisições. Por exemplo, podemos usar a annotation `@RequestMapping` para mapear uma rota para o método que realiza o empréstimo de um item.
