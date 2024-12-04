@@ -1,0 +1,30 @@
+Mapear itens por ID:
+Podemos usar um `Map` para mapear cada item
+emprestável por seu ID único. 
+Dessa forma, podemos obter rapidamente informações sobre um item específico com base em seu ID, o que facilita o processo de empréstimo e devolução.
+
+
+
+Mapear usuários por ID: 
+Da mesma forma que mapeamos os itens por ID,
+também podemos mapear os usuários por seu ID único, permitindo um acesso rápido às informações de cada usuário.
+
+Mapear empréstimos por usuário:
+Podemos usar um `Map` para mapear os empréstimos realizados por cada usuário. Isso nos permite rastrear
+quais itens estão emprestados para cada usuário.
+
+
+Mapear itens reservados por usuário:
+Se o sistema permitir reservas de itens, podemos usar um `Map` para mapear os itens reservados por cada
+usuário. 
+Isso nos permitirá verificar rapidamente se um item está
+reservado por um determinado usuário.
+
+Mapear itens por categoria:
+Se o sistema categorizar os itens (por exemplo: livros, DVDs, equipamentos etc.), podemos usar um `Map` para mapear os itens por categoria. 
+Isso facilita a busca de itens de uma categoria específica.
+
+Mapear itens por categoria:
+Se o sistema categorizar os itens (por exemplo: livros, DVDs, equipamentos etc.), podemos usar um `Map` para mapear os itens por categoria. 
+Isso facilita a busca de itens de uma categoria específica.
+
